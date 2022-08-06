@@ -99,7 +99,7 @@ export default class ProxyFunction {
     private duplicateExpression(expression: Shift.Expression): Shift.Expression {
         const code = codeGen(expression);
         const ast = parseScript(code);
-        return ast.statements[0].expression;
+        return ast.statements[0]?.expression;
     }
 }
 
