@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { deobfuscate } from "./index";
 import fs from 'fs';
 import { Command } from 'commander';
