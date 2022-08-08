@@ -1,5 +1,5 @@
 {
-  "name": "js-deobfuscator",
+  "name": "@liudonghua123/js-deobfuscator",
   "version": "1.0.19",
   "description": "",
   "main": "dist/index.js",
